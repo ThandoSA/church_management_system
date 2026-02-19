@@ -1,71 +1,64 @@
-# church_management_system
-Church Management System with Calendar, Staff, Members, Donations
+Church Management System
 
-Project Structure
+A full-stack Church Management System built with Django to manage members, staff, events, donations, attendance, and internal communication from a centralized platform.
+
+This system is designed to streamline administrative operations, improve record keeping, and enhance organizational efficiency within a church environment.
+
+🚀 Features
+
+Member Management
+
+Staff & Role Management
+
+Church Calendar & Events
+
+Attendance Tracking
+
+Donation Recording
+
+Announcements System
+
+Service & Staff Scheduling
+
+Admin Dashboard
+
+Analytics (via Django Admin)
+
+🏗 Project Structure
 church_management/
 ├── church_management/       # Project settings
-├── church/                  # Main app
+├── church/                  # Main application
 │   ├── models.py           # Database models
-│   ├── views.py            # Views and logic
+│   ├── views.py            # Business logic
 │   ├── forms.py            # Django forms
 │   ├── urls.py             # URL routing
 │   ├── admin.py            # Admin configuration
 │   ├── templates/          # HTML templates
 │   └── static/             # CSS, JS, images
-├── manage.py               # Django management
+├── manage.py               # Django CLI management
 └── requirements.txt        # Dependencies
 
-Models
+
+🗄 Database Models
 Core Models
-ChurchInfo - Church organization details
-Member - Church members database
-StaffRole - Staff position definitions
-Staff - Staff member records
-ChurchCalendar - Events and calendar
-Attendance - Member attendance records
-Donation - Financial donations
-Announcement - Church announcements
-ServiceSchedule - Recurring services
-StaffSchedule - Staff work schedules
-Usage
-Adding Members
-Navigate to Members → Add Member
-Fill in member details
-Save
-Managing Events
-Go to Events → Create Event
-Set event date, time, location
-Assign organizer (optional)
-Save
-Recording Donations
-Go to Finances
-Click "Record Donation"
-Enter donation details
-Save
-Creating Announcements
-Navigate to Announcements → New Announcement
-Enter title and content
-Upload image (optional)
-Pin if important
-Save
-Admin Panel
-Access the admin panel at /admin/ to:
 
-Manage all models
-Create staff roles
-Configure service schedules
-View analytics
-Technologies Used
-Backend: Django 4.2.8
-Database: SQLite3
-Frontend: Bootstrap 5, HTML5, CSS3, JavaScript
-Forms: Django Crispy Forms with Bootstrap 5
-Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+ChurchInfo – Church organization details
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Member – Church members database
 
-Support
-For support, please open an issue on the GitHub repository.
+StaffRole – Staff position definitions
+
+Staff – Staff member records
+
+ChurchCalendar – Events and calendar entries
+
+Attendance – Member attendance records
+
+Donation – Financial donations tracking
+
+Announcement – Church announcements
+
+ServiceSchedule – Recurring services
+
+StaffSchedule – Staff work schedules
 
