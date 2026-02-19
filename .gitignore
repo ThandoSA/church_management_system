@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
